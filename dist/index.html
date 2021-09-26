@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.e308ff8e.css">
+    <title>会动的代码</title>
+<script src="/style.e308ff8e.js"></script></head>
+
+<body>
+    <div id="ds"></div>
+
+    <div id="div1wrapper">
+        <!--外面设置了高度，媒体查询设置了高度，所以冲突作为过渡-->
+        <div id="div1"></div>
+    </div>
+
+
+    <style id="style"></style>
+    <!-- <style>
+        * {
+            margin: 5px;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        *::after {
+            box-sizing: border-box;
+        }
+        
+        *::before {
+            box-sizing: border-box;
+        }
+        
+        #ds {
+            word-break: break-all;
+        }
+        
+        #div1::before {
+            display: block;
+            position: relative;
+            background-color: white;
+        }
+        
+        #div1::after {
+            display: block;
+            position: relative;
+            background-color: black;
+        }
+        
+        #div1 {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+        }
+        
+        @media(max-width:500px) {
+            #ds {
+                height: 50vh;
+                overflow: auto;
+            }
+            #div1wrapper {
+                height: 50vh;
+            }
+            #div1 {
+                margin: 0 auto;
+                position: relative;
+                top: 10%;
+                right: 0;
+            }
+        }
+    </style> -->
+
+    <script src="/main.1f19ae8e.js"></script>
+</body>
+
+</html>
